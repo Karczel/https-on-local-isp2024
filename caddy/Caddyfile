@@ -1,0 +1,9 @@
+django.app.localhost {
+    tls internal
+    reverse_proxy django:8000
+        
+    handle_path /static/* {
+        root * /static
+        file_server
+    }
+}
