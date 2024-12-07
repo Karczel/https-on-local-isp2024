@@ -2,3 +2,4 @@ db/
 caddy/*
 !caddy/Caddyfile
 static/
+.idea/
